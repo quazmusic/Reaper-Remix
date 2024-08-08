@@ -1,0 +1,78 @@
+{
+    "name": "Reaper Remix",
+    "description": "This is just an example recipe for ReaBoot in order to demonstrate how to share a complete collection of packages and make some of them optional.",
+    "sub_title": "by EON Studios",
+    "website": "https://www.quazmusic.com/reaper/",
+    "required_packages": [
+        "https://raw.githubusercontent.com/ReaTeam/Extensions/master/index.xml#p=API/reaper_imgui.ext"
+    ],
+    "features": {
+        "sws": {
+            "name": "SWS/S&M Extension",
+            "default": true,
+            "description": "Popular and established extension that adds a variety of smaller features to REAPER. Considered as must-have by many.",
+            "packages": [
+                "https://raw.githubusercontent.com/ReaTeam/Extensions/master/index.xml#p=Extensions/reaper-oss_SWS.ext&v=latest-pre"
+            ]
+        },
+        "libraries": {
+            "name": "Common libraries",
+            "description": "Frequently used libraries that provide functions for ReaScripts",
+            "packages": [
+                "https://github.com/Ultraschall/ultraschall-lua-api-for-reaper/raw/master/ultraschall_api_index.xml#p=Ultraschall-API-category/Ultraschall%20API%20package",
+                "https://github.com/ReaTeam/ReaScripts/raw/master/index.xml#p=Development/Lokasenna_GUI%20library%20v2.lua",
+                "https://github.com/ReaTeam/ReaScripts/raw/master/index.xml#p=Development/Lokasenna_Scythe%20library%20v3.lua"
+            ]
+        },
+         "JSFX": {
+            "name": "FX",
+            "default": true,
+            "description": "FX including equalizers, compressors, synths, and many more",
+            "packages": [
+                "https://github.com/Erriez/erriez-reaper-jsfx/raw/master/index.xml#p=FX/ErriezFX&v=latest",
+                "https://raw.githubusercontent.com/tiagolr/tilr_jsfx/master/index.xml#p=FX/Tilr&v=latest",
+                "https://raw.githubusercontent.com/Steviekeys/StevieKeys_JSFX2/master/index.xml#p=FX/StevieKeysFX&v=latest",
+                "https://github.com/Sonic-Anomaly/Sonic-Anomaly-JSFX/raw/master/index.xml#p=FX/SonicAnomalyFX&v=latest",
+				"https://github.com/ReaTeam/JSFX/raw/master/index.xml#p=FX/ReaTeamFX&v=latest",
+				"https://www.github.com/JoepVanlier/JSFX/raw/master/index.xml#p=FX/JoepVanlierFX&v=latest",    
+				"https://raw.githubusercontent.com/TukanStudios/TUKAN_STUDIOS_PLUGINS/main/index2.xml#p=FX/TukanFX&v=latest",
+                "https://geraintluff.github.io/jsfx/index.xml#p=FX/GeraintFX&v=latest",
+				"https://raw.githubusercontent.com/mawi-design/JSFX/main/index.xml#p=FX/MawiFX&v=latest",
+				"https://github.com/IXix/JSFX/raw/master/index.xml#p=FX/IXixFX&v=latest",
+                "https://www.github.com/beaunus/REAPER-ReaScripts/raw/master/index.xml#p=FX/Beaunus&v=latest",
+				"https://github.com/AmelianceSkyMusic/ASM_Reaper_scripts/raw/master/index.xml#p=FX/PACKAGE_NAME&v=latest",
+				"https://raw.githubusercontent.com/DemianDeVante/reaembedded/main/index.xml#p=FX/DemianFX&v=latest"
+            ]
+        },
+		
+        "realearn": {
+            "name": "ReaLearn",
+            "description": "The \"Swiss Army Knife\" among the REAPER controller integration tools",
+            "packages": [
+                "https://github.com/helgoboss/reaper-packages/raw/master/index.xml#p=Extensions/ReaLearn-x64&v=latest"
+            ]
+        },
+		"Various": {
+            "name": "Various libraries",
+            "description": "Various ReaScripts",
+            "packages": [
+                "https://acendan.github.io/reascripts/index.xml#p=Various/Acendan&v=latest",
+				"https://github.com/AlbertoV5/ReaperTools/raw/master/index.xml#p=Various/AlbertoV5&v=latest",
+				"https://github.com/ArchieScript/Archie_ReaScripts/raw/master/index.xml#p=Various/ArchieScripts&v=latest",
+				"https://raw.githubusercontent.com/Arthur-McArthur/Arthur-McArthur-ReaScripts/master/index.xml#p=Drums/McSequencer&v=latest",
+				"https://github.com/bfut/ReaScripts/raw/main/index.xml#p=Various/Bfut&v=latest",
+				"https://github.com/DaveInDev/Binbinhfr-Scripts/raw/master/index.xml#p=Development/DaveIn&v=latest",
+				"https://raw.githubusercontent.com/Bird-Bird/ReaScript_Testing/main/index.xml#p=Various/BirdBird&v=latest",
+				"https://github.com/bsmith96/Reaper-Scripts/raw/master/index.xml#p=Various/BSmith&v=latest",
+				"https://github.com/chtammik/chtammik_Reaper_Scripts/raw/master/index.xml#p=Various/Chtammik&v=latest",
+				"https://github.com/Claudiohbsantos/Claudiohbsantos-Scripts/raw/master/index.xml#p=Various/Claudiohbsantos&v=latest",
+				"https://github.com/Dafarkias/REAPER-Lua-Scripts-/raw/master/index.xml#p=Various/Dafarkias&v=latest",
+				"https://github.com/EUGEN27771/ReaScripts/raw/master/index.xml#p=Various/EugenScripts&v=latest",
+				"https://github.com/fernsehmuell/reaper_scripts/raw/master/index.xml#p=Various/fernsehmuell&v=latest",
+				"https://raw.githubusercontent.com/iliaspoulakis/Reaper-Tools/master/index.xml#p=Various/iliaspolakis&v=latest",
+				"https://raw.githubusercontent.com/BryanChi/BryanChi-FX-Devices/main/index.xml#p=Various/BryanChiFX_Devices&v=latest"
+
+            ]
+        }
+    }
+}
